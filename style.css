@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3rem;
+  color: blue;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bold-glow {
+  font-weight: bold;
+  color: deepskyblue;
+  text-shadow: 0 0 10px deepskyblue;
+}
